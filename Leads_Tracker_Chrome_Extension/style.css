@@ -1,0 +1,128 @@
+/* BASE */
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 320px;
+    background: #0f172a; /* dark navy */
+    color: #e2e8f0;
+}
+
+/* CONTAINER */
+.container {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* HEADING */
+h2 {
+    margin: 0 0 12px;
+    text-align: center;
+    color: #38bdf8; /* sky blue */
+}
+
+/* INPUT SECTION */
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* INPUT */
+input {
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #38bdf8;
+    background: #0f172a;
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+input:focus {
+    box-shadow: 0 0 0 2px #38bdf8;
+}
+
+/* BUTTONS */
+button {
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: #0ea5e9;
+    transform: scale(1.03);
+}
+
+/* ACTION BUTTON */
+.actions {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#delete-btn {
+    background: transparent;
+    color: #38bdf8;
+    border: 1px solid #38bdf8;
+}
+
+#delete-btn:hover {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+/* LIST */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+/* LIST ITEM */
+li {
+    margin-top: 8px;
+    background: #0f172a;
+    padding: 8px 10px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+li:hover {
+    background: #1e293b;
+}
+
+/* LINKS */
+li a {
+    color: #38bdf8;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.delete-item {
+    background: transparent;
+    border: none;
+    color: #ef4444;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.delete-item:hover {
+    transform: scale(1.2);
+}
